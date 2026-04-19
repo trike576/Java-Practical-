@@ -1,4 +1,4 @@
-class countingCharacterOccurenceByReplace {
+class CountingCharacterOccurenceByReplace {
     public static int countUsingReplace(char ch, String str) {
         int originalLength = str.length();
         String newStr = str.replace(String.valueOf(ch), "");
