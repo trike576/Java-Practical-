@@ -1,7 +1,7 @@
 public abstract class Vehicle implements Parkable {
-    protected String vehicleNumber;
-    protected int entryTime;
-    protected int exitTime;
+    String vehicleNumber;
+    int entryTime;
+    int exitTime;
 
     public Vehicle(String vehicleNumber, int entryTime) {
         this.vehicleNumber = vehicleNumber;
